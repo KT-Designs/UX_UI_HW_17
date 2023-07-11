@@ -51,7 +51,7 @@ a:hover{
 }
 
 .logo {
-  margin-left:0%;
+  margin-left:10%;
   margin right:0%;
   margin-top: 0%;
   flex-shrink: 0;
@@ -80,7 +80,7 @@ h2{
 .photo1{
   margin-top: 100px;
   margin-left: auto;
-  margin-right: 11.5%;
+  margin-right: 10%;
 }
 
 .hi{
@@ -146,10 +146,12 @@ body{
   transition: 0.25s;
 }
 
-
+.logoF{
+  margin-left: 10%;
+}
 .rightf{
   margin-left: auto;
-  margin-right: 10%;
+  margin-right: 11.5%;
   align-self: flex-end;
   margin-bottom: 20px;
   color: #FFF;
