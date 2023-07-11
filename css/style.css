@@ -155,6 +155,7 @@ body{
 .study{
   transform: scale(1.0);
   transition: 0.25s;
+  max-width: 77%;
 }
 
 .logoF{
