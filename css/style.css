@@ -31,7 +31,7 @@ a:hover{
   margin-bottom: 10px;
   color: #FFF;
   font-size: 18px;
-  font-family: "Lemon Milk","Catamaran";
+  font-family: 'Lemon/Milk',"Catamaran";
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -44,7 +44,7 @@ a:hover{
   margin-bottom: 10px;
   color: #FFF;
   font-size: 18px;
-  font-family: "Lemon Milk","Catamaran";
+  font-family: 'Lemon/Milk',"Catamaran";
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -60,7 +60,7 @@ a:hover{
 h1{
   color: #FFF;
   font-size: 38px;
-  font-family: "Century Gothic";
+  font-family: 'Century Gothic Paneuropean','Arial';
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -71,7 +71,7 @@ h1{
 h2{
   color: #FFF;
   font-size: 40px;
-  font-family: "Lemon Milk","Catamaran";
+  font-family: 'Lemon/Milk',"Catamaran";
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -108,7 +108,7 @@ h2{
 .intro{
   margin-top:100px;
   margin-left: 100px;
-  font-family: "Century Gothic";
+  font-family: 'Century Gothic Paneuropean','Arial';
   font-weight: 500;
   color: white;
   line-height: 30px;
@@ -157,7 +157,7 @@ body{
   margin-bottom: 20px;
   color: #FFF;
   font-size: 18px;
-  font-family: "Lemon Milk","Catamaran";
+  font-family: 'Lemon/Milk',"Catamaran";
   font-style: normal;
   font-weight: 400;
   line-height: normal;
