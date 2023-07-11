@@ -114,6 +114,17 @@ h2{
   line-height: 30px;
 }
 
+@media only screen and (min-width:600px){
+  /*For mobile devices*/
+  .study{
+    transform: scale(0.6);
+    transition: 0.25s;
+  }
+  .study:hover{
+    transform: scale(0.8);
+    transition: 0.25s;
+  }
+}
 .cases{
   display: flex;
   margin: 11.5%;
@@ -142,6 +153,7 @@ body{
   transform: scale(1.1);
   transition: 0.25s;
 }
+
 .study{
   transform: scale(1.0);
   transition: 0.25s;
