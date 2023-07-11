@@ -117,6 +117,7 @@ h2{
 .cases{
   display: flex;
   margin: 11.5%;
+  max-width: 77%;
   justify-content: space-between;
 }
 
