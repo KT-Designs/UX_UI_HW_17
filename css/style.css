@@ -1,3 +1,41 @@
+@media only screen and (max-width:768px){
+  /*For mobile devices*/
+  .study{
+    transform: scale(0.6);
+    transition: 0.25s;
+  }
+  .study:hover{
+    transform: scale(0.8);
+    transition: 0.25s;
+  }
+  .cases{
+    display: flex;
+    max-width: 100%;
+    margin: 11.5%;
+    justify-content: space-between;
+  }
+
+}
+
+@media only screen and (min-width:769px){
+  /*For Laptop devices*/
+  .study{
+    transform: scale(1.0);
+    transition: 0.25s;
+  }
+  .study:hover{
+    transform: scale(1.1);
+    transition: 0.25s;
+  }
+  .cases{
+    display: flex;
+    max-width: 100%;
+    margin: 11.5%;
+    justify-content: space-between;
+  }
+
+}
+
 .nav {
   display: flex;
   width: 100%;
@@ -114,30 +152,9 @@ h2{
   line-height: 30px;
 }
 
-@media only screen and (max-width:600px){
-  /*For mobile devices*/
-  .study{
-    transform: scale(0.6);
-    transition: 0.25s;
-  }
-  .study:hover{
-    transform: scale(0.8);
-    transition: 0.25s;
-  }
-  .cases{
-    display: flex;
-    max-width: 100%;
-    margin: 11.5%;
-    justify-content: space-between;
-  }
 
-}
 
-.cases{
-  display: flex;
-  margin: 11.5%;
-  justify-content: space-between;
-}
+
 
 body{
   background-color:#755E4A ;
@@ -156,16 +173,7 @@ body{
   border-color: black;
 }
 
-.study:hover{
-  transform: scale(1.1);
-  transition: 0.25s;
-}
 
-.study{
-  transform: scale(1.0);
-  transition: 0.25s;
-
-}
 
 .logoF{
   margin-left: 10%;
