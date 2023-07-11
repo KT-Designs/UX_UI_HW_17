@@ -1,11 +1,13 @@
 @media only screen and (max-width:768px){
   /*For mobile devices*/
   .study{
-    transform: scale(0.6);
+    width: 220px;
+    height: 320px;
+    transform: scale(1.0);
     transition: 0.25s;
   }
   .study:hover{
-    transform: scale(0.8);
+    transform: scale(1.1);
     transition: 0.25s;
   }
   .cases{
@@ -19,19 +21,19 @@
 
 @media only screen and (min-width:769px){
   /*For Laptop devices*/
-  .study{
-    transform: scale(0.3);
+  .study {
+    transform: scale(1.0);
     transition: 0.25s;
   }
+
   .study:hover{
-    transform: scale(0.4);
+    transform: scale(1.1);
     transition: 0.25s;
   }
   .cases{
     display: flex;
     max-width: 100%;
     margin: 11.5%;
-    justify-content: space-between;
   }
 
 }
